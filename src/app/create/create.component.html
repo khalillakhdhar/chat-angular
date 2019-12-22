@@ -1,0 +1,10 @@
+<table>
+<tr><td><h1>Création d'un topic</h1></td></tr>
+<tr><td>Titre</td><td><input [(ngModel)]="topic.titre" type="text" name="titre"></td></tr>
+<tr><td>Description</td><td><textarea [(ngModel)]="topic.description" name="description" class="form-control"></textarea></td></tr>
+<tr><td>clé</td><td><input type="text" [(ngModel)]="topic.cle" name="cle"></td></tr>
+<tr><td><input (click)="CreateRecord()" value="ajouter" type="button"></td></tr>
+
+
+
+</table>

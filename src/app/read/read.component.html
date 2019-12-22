@@ -1,0 +1,7 @@
+<app-create></app-create>
+
+
+<table class="table table-bordered">
+    <tr><td>titre</td><td>description</td><td>Action</td></tr>
+    <tr  *ngFor="let tp of topics"><td>{{tp.titre}}</td><td>{{tp.description}}</td><td><input type="button" class="btn btn-primary" value="acceder" (click)="access(tp.id)"></td></tr>
+    </table>
