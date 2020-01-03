@@ -25,6 +25,8 @@ localStorage.clear();
     this.userService.create_NewUser(record).then(resp => {
       localStorage.setItem('pseudo',this.user.pseudo);
       localStorage.setItem('id', resp.id);
+      localStorage.setItem("room",'chat');
+
     window.location.replace('accueil');
     console.log(resp);
  

@@ -1,8 +1,8 @@
       <table class='table'>
 <tr  *ngFor="let chat of messages">
-          <td> 
-            <span *ngIf="chat.pseudo === pseudo" class="msg-name">Moi:</span>  
-             <span *ngIf="chat.pseudo != pseudo" class="msg-name">{{chat.pseudo}}:</span>                        <span class="chat-date">{{chat.date | date:'short'}}</span>
+          <td > 
+            <span *ngIf="chat.pseudo === pseudo"  class="msg-name"><span class="meconnected" >Moi:</span></span>  
+             <span *ngIf="chat.pseudo != pseudo" class="msg-name"><span class="others">{{chat.pseudo}}:</span></span>                        <span class="chat-date">{{chat.date | date:'short'}}</span>
 </td>
             <td>{{chat.message}}</td>
 

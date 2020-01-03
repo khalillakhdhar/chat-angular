@@ -10,6 +10,7 @@ export class ReadmsgComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    localStorage.setItem('room', 'chat');
   }
 
 }

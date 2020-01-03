@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewChild, ContentChildren, ElementRef } from '@angular/core';
-import { Message } from '../classes/message';
 import { MessageService } from '../services/messages.service';
 
 @Component({
@@ -28,10 +27,10 @@ pseudo:string;
         return {
          id: e.payload.doc.id,
 
-         message: e.payload.doc.data().message,
-         pseudo: e.payload.doc.data().pseudo,
-         type: e.payload.doc.data().type,
-         date: e.payload.doc.data().date,
+         message: e.payload.doc.data()["message"],
+         pseudo: e.payload.doc.data()["pseudo"],
+         type: e.payload.doc.data()["type"],
+         date: e.payload.doc.data()["date"],
          
 
 

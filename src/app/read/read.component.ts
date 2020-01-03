@@ -20,9 +20,9 @@ export class ReadComponent implements OnInit {
         return {
          id: e.payload.doc.id,
 
-         titre: e.payload.doc.data().titre,
-         description: e.payload.doc.data().description,
-         cle: e.payload.doc.data().cle,
+         titre: e.payload.doc.data()["titre"],
+         description: e.payload.doc.data()["description"],
+         cle: e.payload.doc.data()["cle"],
 
 
 
