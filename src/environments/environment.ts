@@ -4,13 +4,13 @@
 
 export const environment = {
   production: false,
-  firebase: { apiKey: 'AIzaSyA3I184avSRDh1heBD_I3Q0QKLqw-ob2wk',
-    authDomain: 'fir-ff6e3.firebaseapp.com',
-    databaseURL: 'https://fir-ff6e3.firebaseio.com',
-    projectId: 'fir-ff6e3',
-    storageBucket: 'fir-ff6e3.appspot.com',
-    messagingSenderId: '692680334739',
-    appId: '1:692680334739:web:36546c89b629ad84525c66'
+  firebase: { apiKey: 'key mta3ek',
+    authDomain: 'domaine mta3ek',
+    databaseURL: 'url mta3ek',
+    projectId: 'id mta3ek',
+    storageBucket: 'storage',
+    messagingSenderId: 'senderid',
+    appId: 'appID mta3ek'
   }
 
 };
